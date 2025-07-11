@@ -1,0 +1,83 @@
+[
+  {
+    "vm_id": "vm_aws_123",
+    "cpu_utilization_avg": 2.1,
+    "disk_size_gb": 100,
+    "days_inactive": 10,
+    "network_cost_monthly": 250
+  },
+  {
+    "vm_id": "vm_gcp_456",
+    "cpu_utilization_avg": 4.5,
+    "disk_size_gb": 200,
+    "days_inactive": 0,
+    "network_cost_monthly": 400
+  },
+  {
+    "vm_id": "vm_azure_789",
+    "cpu_utilization_avg": 1.8,
+    "disk_size_gb": 150,
+    "days_inactive": 15,
+    "network_cost_monthly": 180
+  },
+  {
+    "vm_id": "vm_aws_321",
+    "cpu_utilization_avg": 20.0,
+    "disk_size_gb": 500,
+    "days_inactive": 0,
+    "network_cost_monthly": 700
+  },
+  {
+    "vm_id": "vm_gcp_654",
+    "cpu_utilization_avg": 0.5,
+    "disk_size_gb": 50,
+    "days_inactive": 30,
+    "network_cost_monthly": 50
+  },
+  {
+    "vm_id": "vm_azure_987",
+    "cpu_utilization_avg": 10.2,
+    "disk_size_gb": 250,
+    "days_inactive": 0,
+    "network_cost_monthly": 350
+  },
+  {
+    "storage_id": "storage_s3_bucket_1",
+    "storage_type": "S3",
+    "total_size_gb": 1200,
+    "last_accessed_days_ago": 180,
+    "monthly_cost": 90
+  },
+  {
+    "storage_id": "storage_gcs_bucket_2",
+    "storage_type": "GCS",
+    "total_size_gb": 300,
+    "last_accessed_days_ago": 7,
+    "monthly_cost": 25
+  },
+  {
+    "storage_id": "storage_blob_3",
+    "storage_type": "Azure Blob",
+    "total_size_gb": 800,
+    "last_accessed_days_ago": 365,
+    "monthly_cost": 60
+  },
+  {
+    "network_id": "vpc_aws_main",
+    "region": "us-east-1",
+    "egress_traffic_tb": 2.5,
+    "monthly_cost": 450
+  },
+  {
+    "network_id": "vpc_gcp_prod",
+    "region": "europe-west1",
+    "egress_traffic_tb": 1.2,
+    "monthly_cost": 200
+  },
+  {
+    "network_id": "vnet_azure_corp",
+    "region": "eastus",
+    "egress_traffic_tb": 0.8,
+    "monthly_cost": 150
+  }
+]

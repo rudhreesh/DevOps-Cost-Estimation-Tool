@@ -1,0 +1,62 @@
+[
+  {
+    "db_instance": "rds_prod_01",
+    "cpu_utilization": 5.3,
+    "active_connections": 3,
+    "table_scan_count": 150
+  },
+  {
+    "db_instance": "rds_dev_02",
+    "cpu_utilization": 1.2,
+    "active_connections": 0,
+    "table_scan_count": 10
+  },
+  {
+    "db_instance": "aurora_cluster_01",
+    "cpu_utilization": 20.5,
+    "active_connections": 45,
+    "table_scan_count": 500
+  },
+  {
+    "db_instance": "mysql_backup_03",
+    "cpu_utilization": 0.8,
+    "active_connections": 0,
+    "table_scan_count": 0
+  },
+  {
+    "db_instance": "postgres_reporting_04",
+    "cpu_utilization": 7.0,
+    "active_connections": 8,
+    "table_scan_count": 400
+  },
+  {
+    "db_instance": "mssql_analytics_05",
+    "cpu_utilization": 15.0,
+    "active_connections": 20,
+    "table_scan_count": 900
+  },
+  {
+    "db_instance": "oracle_test_06",
+    "cpu_utilization": 2.5,
+    "active_connections": 1,
+    "table_scan_count": 50
+  },
+  {
+    "db_instance": "mongo_prod_07",
+    "cpu_utilization": 12.3,
+    "active_connections": 35,
+    "table_scan_count": 300
+  },
+  {
+    "db_instance": "redis_cache_08",
+    "cpu_utilization": 5.0,
+    "active_connections": 120,
+    "table_scan_count": 0
+  },
+  {
+    "db_instance": "rds_stage_09",
+    "cpu_utilization": 3.1,
+    "active_connections": 2,
+    "table_scan_count": 60
+  }
+]

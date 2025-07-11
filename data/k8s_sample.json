@@ -1,0 +1,72 @@
+[
+  {
+    "pod_name": "nginx-pod",
+    "cpu_request": "2000m",
+    "memory_request": "4Gi",
+    "avg_cpu_usage": "500m",
+    "avg_memory_usage": "1Gi"
+  },
+  {
+    "pod_name": "api-server",
+    "cpu_request": "1000m",
+    "memory_request": "2Gi",
+    "avg_cpu_usage": "700m",
+    "avg_memory_usage": "1.5Gi"
+  },
+  {
+    "pod_name": "worker-pod-1",
+    "cpu_request": "3000m",
+    "memory_request": "6Gi",
+    "avg_cpu_usage": "500m",
+    "avg_memory_usage": "2Gi"
+  },
+  {
+    "pod_name": "worker-pod-2",
+    "cpu_request": "3000m",
+    "memory_request": "6Gi",
+    "avg_cpu_usage": "2800m",
+    "avg_memory_usage": "5.5Gi"
+  },
+  {
+    "pod_name": "db-backup-pod",
+    "cpu_request": "500m",
+    "memory_request": "1Gi",
+    "avg_cpu_usage": "50m",
+    "avg_memory_usage": "200Mi"
+  },
+  {
+    "pod_name": "old-worker",
+    "cpu_request": "1000m",
+    "memory_request": "2Gi",
+    "avg_cpu_usage": "0m",
+    "avg_memory_usage": "0Mi"
+  },
+  {
+    "pod_name": "redis-cache",
+    "cpu_request": "1500m",
+    "memory_request": "3Gi",
+    "avg_cpu_usage": "1200m",
+    "avg_memory_usage": "2.5Gi"
+  },
+  {
+    "pod_name": "metrics-collector",
+    "cpu_request": "500m",
+    "memory_request": "1Gi",
+    "avg_cpu_usage": "200m",
+    "avg_memory_usage": "600Mi"
+  },
+  {
+    "pod_name": "dev-nginx",
+    "cpu_request": "1000m",
+    "memory_request": "2Gi",
+    "avg_cpu_usage": "100m",
+    "avg_memory_usage": "200Mi"
+  },
+  {
+    "pod_name": "frontend-pod",
+    "cpu_request": "2000m",
+    "memory_request": "4Gi",
+    "avg_cpu_usage": "1500m",
+    "avg_memory_usage": "3.5Gi"
+  }
+]
